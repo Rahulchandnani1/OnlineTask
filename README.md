@@ -4,7 +4,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory, to start the app:
+First we need to install dependencies
+by running below command:
+
+npm install
+
+then we can run below command to start app
 
 ### `npm start`
 
@@ -14,6 +20,19 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+
+### Instruction to interact with the app and component:
+1 For Input here We have passed props like 
+    style  to update the style of input,
+    the placeholder,
+    title,
+    showvalue as true (so that entered value will  be shown)
+    minlength ,maxlength,
+    scenario as true to show the edit and disabled button
+    type and required.
+
+ 2 Error message implemented to check input type text should not be greater than 12 and password should contain @.
+ 3 On click of edit user can edit the input and on click of disable user can't change the input
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
