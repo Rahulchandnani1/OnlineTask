@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Input from './inputcomponent';
 
-//disable
+
 function App() {
   return (
     <div className="App">
@@ -12,6 +12,7 @@ function App() {
     title,
     showvalue as true so that entered value will  be shown,
     minlength ,maxlength,
+    scenario as true to show the edit and disabled button
     type and required  */}
 
     <h2>Below are implementation of Input component in parent component</h2>
